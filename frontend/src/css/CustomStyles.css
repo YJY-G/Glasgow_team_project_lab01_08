@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 72px); /* 72px是header的高度 */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4caf50, #388e3c);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,9 @@
+django-extensions
+djangorestframework
+django-cors-headers
+pyotp
+geopy
+qrcode
+Pillow
+djangorestframework-simplejwt
+paypalrestsdk

@@ -1,0 +1,244 @@
+@font-face {
+    font-family: SoulmehFont;
+    src: url(../assets/font/Soulmeh.OTF);
+}
+@font-face {
+    font-family: SuperMoods;
+    src: url(../assets/font/SuperMoods.ttf);
+}
+@font-face {
+    font-family: TimesNewRoman;
+    src: url(../assets/font/TimesNewRomanBold.ttf);
+}
+@font-face {
+    font-family: AndaleMono;
+    src: url(../assets/font/AndaleMono.ttf);
+}
+#root{
+    width: 100%;
+    height: 100%;    
+    background-color: #dfdfdf;
+  
+}
+.layout-container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+.content-wrap {
+    flex: 1;
+    padding: 20px; 
+    overflow: auto; 
+  }
+.headerColor{
+    background: linear-gradient(135deg, #6D83F2, #A084E8);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 10px 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+ 
+}
+a.HeaderLogo{
+    font-family: SoulmehFont;
+    font-size: 50px;
+}
+.headerList-nav-link{
+    color: white !important;  
+    /* font-family: SoulmehFont; */
+    font-size:20px
+}
+
+.headerList .nav-item{
+    font-size: 30px;
+}
+.containerLogoin{
+    padding-top: 150px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.loginHeader{
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 40px 0;
+  
+}
+.status-cards {
+    display: flex;
+    gap: 30px;
+    
+  }
+
+
+.FormGroup{
+    padding: 0 25px;
+    margin-bottom: 15px;
+   
+}
+.textfield{
+    height: 60px;
+    
+    border-radius: 160px ;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+    outline: none;
+    transition: .3s;
+}
+.textfield::placeholder{
+    font-weight: 500;
+    color: black;
+}
+.textfield:focus{
+    width: 105%;
+}
+a.registerPage{
+    color: gray;
+    display: inline;
+    text-decoration: none;
+    justify-content: left;
+}
+a.registerPage:hover{
+    text-decoration: underline;
+}
+
+
+a.ForgetPsw{
+    float: right;
+    color: gray;
+    display: inline;
+    text-decoration: none;  
+}
+a.ForgetPsw:hover{
+    text-decoration: underline;
+}
+.homePageLoginButton{
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: linear-gradient(135deg, #6D83F2, #A084E8);
+    font-family: SuperMoods;
+    font-size: 20px;
+}
+
+.signLoginButton{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    background-color: #222;
+    color: white;
+    padding-top: 35px;
+    text-align: right;
+    margin-top: 35px;
+}
+.HomeCard{
+    padding-top: 30px;
+    padding: 10px;
+    margin: 50px;
+}
+.card{
+    padding: 40px;
+}
+.HopmepageImageText{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:55px;
+    font-family: SuperMoods;
+    
+}
+.qrcode{
+    width: 550px;
+    height: 550px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+.qr_text{
+    text-align: center;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .order-status-container {
+    display: flex;
+    gap: 20px; 
+ 
+  }
+  .order-status-card {
+    display: flex;
+    align-items: center;
+   
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    flex: 1; 
+  }
+  
+  .order-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .order-text h3 {
+    margin-left: 15px;
+    font-size: 20px;
+    color: black
+    ;
+  }
+  
+  .order-text p {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #6c7480;
+  }
+  .customerButton{
+    margin-left: 30px;
+  }
+  .customerReport{
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .ReportButton{
+    margin-left: 25px;
+  }
+  .MapMargin{
+    margin: 22px;
+    
+  }
+  .textareaCus{
+    margin-top: 20px;
+  }
+  .reportRepairButton{
+    margin-left: 30px;
+  }
+
+
+
+  
